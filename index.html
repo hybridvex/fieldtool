@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field tool - tipping point</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="assets/field.png" class="invis" id="base_img">
+    <div id="field">
+        <canvas id="cv" width=500 height=500></canvas>
+        <span id="coords">20_in, 40_in</span>
+        <span id="origin" class="invis">Origin: 
+            <input type="number" id="oX" value="0"/>
+            <input type="number" id="oY" value="0"/>
+            <button type="button" id="pickOrigin">Pick origin</button>
+        </span>
+        <div id="points"></div>
+    </div>
+</body>
+
+</html>
